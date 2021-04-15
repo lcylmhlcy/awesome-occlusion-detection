@@ -77,3 +77,8 @@ A survey of occlusion handling in object detection/recognition
 - [IROS2018] [Instance segmentation of visible and occluded regions for finding and picking target from a pile of objects](https://ieeexplore.ieee.org/abstract/document/8593690)
 - [3DV2018] [Seethrough: Finding objects in heavily occluded indoor scene images](https://ieeexplore.ieee.org/abstract/document/8490977)
 - [IROS2019] [Seeing behind things: Extending semantic segmentation to occluded regions](https://arxiv.org/abs/1906.02885)
+
+## Some Opinions
+- 方向：GAN、amodal segmentation、compositional models (遮挡补全、或者利用局部特征和背景)
+- 没有专用于occlusion的大规模目标检测数据集，没有不同程度的遮挡情况，没有统一的标准benchmark。大部分论文的实验数据都是人为模拟合成，数据较为单一简单。
+- 在实际应用中，第一步需判断目标是否被遮挡。虽然这个问题可以用amodal segmentation解决，但是标注不精准并且耗时耗力。
