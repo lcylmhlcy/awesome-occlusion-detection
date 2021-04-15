@@ -1,52 +1,21 @@
 # awesome-occlusion-detection
 A survey of occlusion handling in object detection/recognition
 
-## Survey
+### Survey
 - 遮挡目标检测与识别技术研究_蔡星艳
 - Occlusion Detection and Handling: A Review
 - Occlusion Handling in Generic Object Detection: A Review
 - Survey of pedestrian detection with occlusion
-  
-### Pedestrian Detection
-- [ICCV2015] [Deep learning strong parts for pedestrian detection](https://openaccess.thecvf.com/content_iccv_2015/html/Tian_Deep_Learning_Strong_ICCV_2015_paper.html)
-- [ECCV2018] [Occlusion-aware R-CNN: detecting pedestrians in a crowd](https://arxiv.org/abs/1807.08407)
-- [CVPR2018] [Repulsion Loss: Detecting Pedestrians in a Crowd](https://arxiv.org/abs/1711.07752)
-- [TITS2019] [Overcoming Occlusion in the Automotive Environment—A Review](https://ieeexplore.ieee.org/abstract/document/8928542/)
-- [2021] [Survey of pedestrian detection with occlusion](https://link.springer.com/article/10.1007/s40747-020-00206-8)
-
-### Object Tracking
-- [TC2017] [Towards occlusion handling: object tracking with background estimation](https://ieeexplore.ieee.org/abstract/document/7994708)
-- [TMM2018] [Context-aware three-dimensional mean-shift with occlusion handling for robust object tracking in RGB-D videos](https://ieeexplore.ieee.org/abstract/document/8425768/)
-- [2020] [A Bayesian Filter for Multi-view 3D Multi-object Tracking with Occlusion Handling](https://arxiv.org/abs/2001.04118)
-
-### Face detection
-- [TPAMI2017] [Faceness-net: Face detection through deep facial part responses](https://arxiv.org/abs/1701.08393)
-- [ICMR2020] [Occlusion-Aware GAN for Face De-Occlusion in the Wild](https://ieeexplore.ieee.org/abstract/document/9102788)
-- [2020] [A survey of face recognition techniques under occlusion](https://arxiv.org/abs/2006.11366)
-
-### Stereo
-- [BMVC2018] [Symmnet: A symmetric convolutional neural network for occlusion detection](https://arxiv.org/abs/1807.00959)
-
-### Car Detection
-- [SP2015] [Inferring occluded features for fast object detection](https://www.sciencedirect.com/science/article/abs/pii/S0165168414004940)
-- [CVPR2019] [Occlusion-Net: 2D/3D Occluded Keypoint Localization Using Graph Networks](https://openreview.net/pdf?id=_cv1Qp4e3x)
-- [WACV2020] [Combining Compositional Models and Deep Networks For Robust Object Classification under Occlusion](https://arxiv.org/abs/1905.11826)
-  - 提出数据集Occluded-Vehicles
-- [CVPR2020] [Compositional Convolutional Neural Networks: A Deep Architecture with Innate Robustness to Partial Occlusion](https://arxiv.org/pdf/2003.04490.pdf) [[Code]](https://github.com/AdamKortylewski/CompositionalNets)
-  - 使用数据集Occluded-Vehicles
-  
-### Others
-- [IROS2018] [Instance segmentation of visible and occluded regions for finding and picking target from a pile of objects](https://ieeexplore.ieee.org/abstract/document/8593690)
-- [3DV2018] [Seethrough: Finding objects in heavily occluded indoor scene images](https://ieeexplore.ieee.org/abstract/document/8490977)
-- [IROS2019] [Seeing behind things: Extending semantic segmentation to occluded regions](https://arxiv.org/abs/1906.02885)
 
 ### General
 - [CVPR2006] [The layout consistent random field for recognizing and segmenting partially occluded objects](https://ieeexplore.ieee.org/abstract/document/1640739/)
 - [CVPR2011] [A segmentation-aware object detection model with occlusion handling](https://ieeexplore.ieee.org/abstract/document/5995623)
+- [CVIU2013] [Occlusion cues for image scene layering](https://www.sciencedirect.com/science/article/abs/pii/S1077314212001300)
+- [IV2013] [Occlusion handling using discriminative model of trained part templates and conditional random field](https://ieeexplore.ieee.org/abstract/document/6629557)
+- [ICANN2013] [Using the Analytic Feature Framework for the Detection of Occluded Objects](https://link.springer.com/chapter/10.1007/978-3-642-40728-4_75)
+- [ICANN2014] [A two-stage classifier architecture for detecting objects under real-world occlusion patterns](https://www.honda-ri.de/pubs/pdf/2693.pdf)
 - [BMVC2016] [Measuring the effect of nuisance variables on classifiers](https://infoscience.epfl.ch/record/220613)
 - [ECCV2016] [Amodal instance segmentation](https://arxiv.org/abs/1604.08202)
-- [CVPR2016] [Context encoders: Feature learning by inpainting](https://arxiv.org/abs/1604.07379)
-  - inpainting是解决遮挡的一种方法，但是与实际任务不符
 - [2017] [Detecting semantic parts on partially occluded objects](https://arxiv.org/abs/1707.07819)
 - [2017] [Improved regularization of convolutional neural networks with cutout](https://arxiv.org/abs/1708.04552)
 - [CVPR2017] [A-fast-rcnn: Hard positive generation via adversary for object detection](https://arxiv.org/abs/1704.03414)
@@ -64,3 +33,47 @@ A survey of occlusion handling in object detection/recognition
   - 提出新遮挡数据集 OccludedCOCO
 - [CVPR2020] [Self-supervised scene de-occlusion](https://arxiv.org/abs/2004.02788)
 - [IJCV2021] [Compositional convolutional neural networks: A robust and interpretable model for object recognition under occlusion](https://arxiv.org/pdf/1905.04598.pdf)
+  
+### Pedestrian Detection
+- [ICCV2009] [An HOG-LBP human detector with partial occlusion handling](https://ieeexplore.ieee.org/abstract/document/5459207)
+- [CVPR2010] [Multi-cue pedestrian classification with partial occlusion handling](https://ieeexplore.ieee.org/abstract/document/5540111)
+- [ICCV2015] [Deep learning strong parts for pedestrian detection](https://openaccess.thecvf.com/content_iccv_2015/html/Tian_Deep_Learning_Strong_ICCV_2015_paper.html)
+- [ECCV2018] [Occlusion-aware R-CNN: detecting pedestrians in a crowd](https://arxiv.org/abs/1807.08407)
+- [CVPR2018] [Repulsion Loss: Detecting Pedestrians in a Crowd](https://arxiv.org/abs/1711.07752)
+- [TITS2019] [Overcoming Occlusion in the Automotive Environment—A Review](https://ieeexplore.ieee.org/abstract/document/8928542/)
+- [2021] [Survey of pedestrian detection with occlusion](https://link.springer.com/article/10.1007/s40747-020-00206-8)
+
+### Face detection
+- [TPAMI2017] [Faceness-net: Face detection through deep facial part responses](https://arxiv.org/abs/1701.08393)
+- [ICMR2020] [Occlusion-Aware GAN for Face De-Occlusion in the Wild](https://ieeexplore.ieee.org/abstract/document/9102788)
+- [2020] [A survey of face recognition techniques under occlusion](https://arxiv.org/abs/2006.11366)
+
+### Car Detection
+- [TITS2008] [Multilevel Framework to Detect and Handle Vehicle Occlusion](https://ieeexplore.ieee.org/abstract/document/4445682)
+- [SP2015] [Inferring occluded features for fast object detection](https://www.sciencedirect.com/science/article/abs/pii/S0165168414004940)
+- [CVPR2019] [Occlusion-Net: 2D/3D Occluded Keypoint Localization Using Graph Networks](https://openreview.net/pdf?id=_cv1Qp4e3x)
+- [WACV2020] [Combining Compositional Models and Deep Networks For Robust Object Classification under Occlusion](https://arxiv.org/abs/1905.11826)
+  - 提出数据集Occluded-Vehicles
+- [CVPR2020] [Compositional Convolutional Neural Networks: A Deep Architecture with Innate Robustness to Partial Occlusion](https://arxiv.org/pdf/2003.04490.pdf) [[Code]](https://github.com/AdamKortylewski/CompositionalNets)
+  - 使用数据集Occluded-Vehicles
+
+### Stereo
+- [CVPR2001] [Handling occlusions in dense multi-view stereo](https://ieeexplore.ieee.org/abstract/document/990462)
+- [CVPR2005] [Symmetric stereo matching for occlusion handling](https://ieeexplore.ieee.org/abstract/document/1467470)
+- [BMVC2018] [Symmnet: A symmetric convolutional neural network for occlusion detection](https://arxiv.org/abs/1807.00959)
+
+### Object Tracking
+- [ICPR2004] [Tracking people through occlusions](https://ieeexplore.ieee.org/abstract/document/1334361)
+- [CVPR2005] [Real-time multiple objects tracking with occlusion handling in dynamic scenes](https://ieeexplore.ieee.org/abstract/document/1467371)
+- [CVPR2007] [Robust Occlusion Handling in Object Tracking](https://ieeexplore.ieee.org/abstract/document/4270451)
+- [ICME2014] [Multi-person tracking-by-detection with local particle filtering and global occlusion handling](https://ieeexplore.ieee.org/abstract/document/6890149)
+- [TC2017] [Towards occlusion handling: object tracking with background estimation](https://ieeexplore.ieee.org/abstract/document/7994708)
+- [TMM2018] [Context-aware three-dimensional mean-shift with occlusion handling for robust object tracking in RGB-D videos](https://ieeexplore.ieee.org/abstract/document/8425768/)
+- [2020] [A Bayesian Filter for Multi-view 3D Multi-object Tracking with Occlusion Handling](https://arxiv.org/abs/2001.04118)
+  
+### Others
+- [CVPR2011] [Monocular 3D scene understanding with explicit occlusion reasoning](https://ieeexplore.ieee.org/abstract/document/5995547)
+- [CVPR2013] [Explicit occlusion modeling for 3d object class representations](https://openaccess.thecvf.com/content_cvpr_2013/html/Zia_Explicit_Occlusion_Modeling_2013_CVPR_paper.html)
+- [IROS2018] [Instance segmentation of visible and occluded regions for finding and picking target from a pile of objects](https://ieeexplore.ieee.org/abstract/document/8593690)
+- [3DV2018] [Seethrough: Finding objects in heavily occluded indoor scene images](https://ieeexplore.ieee.org/abstract/document/8490977)
+- [IROS2019] [Seeing behind things: Extending semantic segmentation to occluded regions](https://arxiv.org/abs/1906.02885)
